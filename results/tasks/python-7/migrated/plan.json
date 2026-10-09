@@ -1,0 +1,83 @@
+{
+  "inventory": {
+    "language": "python",
+    "sites": [
+      {
+        "line": 4,
+        "primitive": "RSA",
+        "operation": "keygen",
+        "evidence": "cryptography.hazmat.primitives.asymmetric.rsa.generate_private_key",
+        "confidence": "AST import resolved"
+      },
+      {
+        "line": 6,
+        "primitive": "contextual",
+        "operation": "sign",
+        "evidence": "key.sign",
+        "confidence": "local contextual candidate"
+      },
+      {
+        "line": 7,
+        "primitive": "contextual",
+        "operation": "verify",
+        "evidence": "key.public_key().verify",
+        "confidence": "local contextual candidate"
+      }
+    ],
+    "boundaries": [],
+    "cug": {
+      "nodes": [
+        {
+          "id": "s0",
+          "kind": "operation",
+          "line": 4,
+          "primitive": "RSA",
+          "operation": "keygen",
+          "evidence": "cryptography.hazmat.primitives.asymmetric.rsa.generate_private_key",
+          "confidence": "AST import resolved"
+        },
+        {
+          "id": "s1",
+          "kind": "operation",
+          "line": 6,
+          "primitive": "contextual",
+          "operation": "sign",
+          "evidence": "key.sign",
+          "confidence": "local contextual candidate"
+        },
+        {
+          "id": "s2",
+          "kind": "operation",
+          "line": 7,
+          "primitive": "contextual",
+          "operation": "verify",
+          "evidence": "key.public_key().verify",
+          "confidence": "local contextual candidate"
+        }
+      ],
+      "edges": []
+    },
+    "analysis_scope": "Python AST import resolution; Java/Go import-supported syntax; file-context CUG indicators"
+  },
+  "strategy": "abstain",
+  "auto_applicable": false,
+  "reasons": [
+    "policy: external verifier compatibility unknown"
+  ],
+  "target": "ML-DSA-65",
+  "candidate_strategies": [
+    "direct",
+    "hybrid-profile-required",
+    "compatibility-preserving-policy-required",
+    "abstain"
+  ],
+  "validation_obligations": [
+    "build",
+    "sign_verify",
+    "wrong_message",
+    "wrong_key",
+    "corrupt_signature",
+    "key_serialization_roundtrip"
+  ],
+  "supported_scope": "Supported transformations: complete sign/verify fixture templates; other units return abstain"
+}

@@ -1,0 +1,12 @@
+test_comments_strings_negative (test_migration.MigrationTests.test_comments_strings_negative) ... ok
+test_explicit_peer_policy (test_migration.MigrationTests.test_explicit_peer_policy) ... ok
+test_guards (test_migration.MigrationTests.test_guards) ... ok
+test_python_alias (test_migration.MigrationTests.test_python_alias) ... ok
+test_source_unchanged (test_migration.MigrationTests.test_source_unchanged) ... ok
+test_template_rejects_additional_statements (test_migration.MigrationTests.test_template_rejects_additional_statements) ... ok
+test_three_frontends (test_migration.MigrationTests.test_three_frontends) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.060s
+
+OK

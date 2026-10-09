@@ -1,0 +1,23 @@
+--- a/original.java
++++ b/Main.java
+@@ -1,12 +1,10 @@
+-
+-import java.security.KeyPairGenerator;
+-import java.security.Signature;
++import java.io.File;
+ public class Main {
+- public static void main(String[] args) throws Exception {
+-  var generator = KeyPairGenerator.getInstance("RSA"); generator.initialize(3072);
+-  var keys = generator.generateKeyPair(); var signer = Signature.getInstance("SHA256withRSA");
+-  byte[] msg = "controlled signature unit 3".getBytes(); signer.initSign(keys.getPrivate()); signer.update(msg);
+-  byte[] signature = signer.sign(); signer.initVerify(keys.getPublic()); signer.update(msg);
+-  if (!signer.verify(signature)) throw new IllegalStateException();
+- }
++    public static void main(String[] args) throws Exception {
++        String python = System.getenv().getOrDefault("QMIGRATE_PYTHON", "python");
++        Process process = new ProcessBuilder(python, "crypto_adapter.py", "--selftest")
++            .directory(new File(".")).inheritIO().start();
++        int code = process.waitFor();
++        if (code != 0) throw new IllegalStateException("Cryptographic validation failed: " + code);
++    }
+ }

@@ -1,0 +1,1078 @@
+{
+  "capabilities": {
+    "version": "OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)",
+    "ml_dsa_65": true
+  },
+  "tasks": [
+    {
+      "language": "python",
+      "id": 0,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "python",
+      "id": 1,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "python",
+      "id": 2,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "python",
+      "id": 3,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "python",
+      "id": 4,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "python",
+      "id": 5,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "python",
+      "id": 6,
+      "expected_supported": false,
+      "plan": "abstain",
+      "validation": {
+        "status": "abstained"
+      }
+    },
+    {
+      "language": "python",
+      "id": 7,
+      "expected_supported": false,
+      "plan": "abstain",
+      "validation": {
+        "status": "abstained"
+      }
+    },
+    {
+      "language": "java",
+      "id": 0,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "java",
+      "id": 1,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "java",
+      "id": 2,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "java",
+      "id": 3,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "java",
+      "id": 4,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "java",
+      "id": 5,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "java",
+      "id": 6,
+      "expected_supported": false,
+      "plan": "abstain",
+      "validation": {
+        "status": "abstained"
+      }
+    },
+    {
+      "language": "java",
+      "id": 7,
+      "expected_supported": false,
+      "plan": "abstain",
+      "validation": {
+        "status": "abstained"
+      }
+    },
+    {
+      "language": "go",
+      "id": 0,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "go",
+      "id": 1,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "go",
+      "id": 2,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "go",
+      "id": 3,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "go",
+      "id": 4,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "go",
+      "id": 5,
+      "expected_supported": true,
+      "plan": "direct",
+      "validation": {
+        "status": "passed",
+        "returncode": 0,
+        "stdout": "{\"status\": \"passed\", \"algorithm\": \"ML-DSA-65\", \"capabilities\": {\"version\": \"OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\", \"ml_dsa_65\": true}, \"checks\": {\"valid_signature\": true, \"modified_message_rejected\": true, \"wrong_key_rejected\": true, \"corrupt_signature_rejected\": true, \"public_key_roundtrip\": true, \"private_key_roundtrip\": true}, \"signature_bytes\": 3309, \"public_der_bytes\": 1974, \"timing_ms\": [], \"timing_median_ms\": null, \"timing_iqr_ms\": null, \"timing_scope\": \"Subprocess end-to-end timing including process startup and file I/O\"}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "language": "go",
+      "id": 6,
+      "expected_supported": false,
+      "plan": "abstain",
+      "validation": {
+        "status": "abstained"
+      }
+    },
+    {
+      "language": "go",
+      "id": 7,
+      "expected_supported": false,
+      "plan": "abstain",
+      "validation": {
+        "status": "abstained"
+      }
+    }
+  ],
+  "detector_fixtures": [
+    {
+      "language": "python",
+      "id": 0,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 1,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 2,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 3,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 4,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 5,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 6,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 7,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 8,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 9,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 10,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 11,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 12,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 13,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 14,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 15,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 16,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 17,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 18,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 19,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 20,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 21,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 22,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 23,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 24,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 25,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 26,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 27,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 28,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "python",
+      "id": 29,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 0,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 1,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 2,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 3,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 4,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 5,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 6,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 7,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 8,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 9,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 10,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 11,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 12,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 13,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 14,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 15,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 16,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 17,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 18,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 19,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 20,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 21,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 22,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 23,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 24,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 25,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 26,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 27,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 28,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "java",
+      "id": 29,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 0,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 1,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 2,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 3,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 4,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 5,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 6,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 7,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 8,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 9,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 10,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 11,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 12,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 13,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 14,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 15,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 16,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 17,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 18,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 19,
+      "positive": true,
+      "detected": true,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 20,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 21,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 22,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 23,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 24,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 25,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 26,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 27,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 28,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    },
+    {
+      "language": "go",
+      "id": 29,
+      "positive": false,
+      "detected": false,
+      "fixture_scope": "Generated direct-use template variants"
+    }
+  ],
+  "cryptographic_checks": {
+    "ML-DSA-65": {
+      "status": "passed",
+      "algorithm": "ML-DSA-65",
+      "capabilities": {
+        "version": "OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)",
+        "ml_dsa_65": true
+      },
+      "checks": {
+        "valid_signature": true,
+        "modified_message_rejected": true,
+        "wrong_key_rejected": true,
+        "corrupt_signature_rejected": true,
+        "public_key_roundtrip": true,
+        "private_key_roundtrip": true
+      },
+      "signature_bytes": 3309,
+      "public_der_bytes": 1974,
+      "timing_ms": [
+        59.7226,
+        59.6198,
+        70.2165,
+        66.0456,
+        65.2756,
+        69.7286,
+        66.1129,
+        64.0266,
+        76.3642,
+        59.4772,
+        75.4116,
+        64.7715,
+        65.485,
+        60.656,
+        75.6129,
+        100.8927,
+        94.2681,
+        73.6849,
+        67.1903,
+        86.9893,
+        81.1392,
+        78.2024,
+        89.5077,
+        68.186,
+        59.2769,
+        53.8466,
+        78.0394,
+        59.9945,
+        74.6782,
+        80.6597
+      ],
+      "timing_median_ms": 68.9573,
+      "timing_iqr_ms": 13.407774999999987,
+      "timing_scope": "Subprocess end-to-end timing including process startup and file I/O"
+    },
+    "RSA": {
+      "status": "passed",
+      "algorithm": "RSA",
+      "capabilities": {
+        "version": "OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)",
+        "ml_dsa_65": true
+      },
+      "checks": {
+        "valid_signature": true,
+        "modified_message_rejected": true,
+        "wrong_key_rejected": true,
+        "corrupt_signature_rejected": true,
+        "public_key_roundtrip": true,
+        "private_key_roundtrip": true
+      },
+      "signature_bytes": 256,
+      "public_der_bytes": 294,
+      "timing_ms": [
+        90.4809,
+        75.9356,
+        82.3748,
+        69.5548,
+        66.1883,
+        76.8972,
+        94.1917,
+        77.2951,
+        98.187,
+        113.3365,
+        70.9583,
+        84.1002,
+        66.0127,
+        67.6145,
+        63.3104,
+        83.9828,
+        78.2433,
+        74.8984,
+        84.1015,
+        78.4101,
+        60.1467,
+        67.2342,
+        67.828,
+        62.8815,
+        75.5116,
+        67.4309,
+        63.649,
+        67.555,
+        71.3289,
+        88.3281
+      ],
+      "timing_median_ms": 75.205,
+      "timing_iqr_ms": 16.118875000000003,
+      "timing_scope": "Subprocess end-to-end timing including process startup and file I/O"
+    },
+    "EC": {
+      "status": "passed",
+      "algorithm": "EC",
+      "capabilities": {
+        "version": "OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)",
+        "ml_dsa_65": true
+      },
+      "checks": {
+        "valid_signature": true,
+        "modified_message_rejected": true,
+        "wrong_key_rejected": true,
+        "corrupt_signature_rejected": true,
+        "public_key_roundtrip": true,
+        "private_key_roundtrip": true
+      },
+      "signature_bytes": 72,
+      "public_der_bytes": 91,
+      "timing_ms": [
+        59.0714,
+        72.7467,
+        77.9806,
+        60.9156,
+        57.3786,
+        55.5401,
+        65.1066,
+        66.0083,
+        67.5505,
+        65.529,
+        75.271,
+        79.1263,
+        69.4164,
+        126.9234,
+        174.9404,
+        97.1048,
+        62.4187,
+        61.0617,
+        86.9045,
+        105.4423,
+        85.8491,
+        70.4383,
+        75.1753,
+        69.8433,
+        68.854,
+        68.7515,
+        57.7501,
+        83.3946,
+        66.0635,
+        77.644
+      ],
+      "timing_median_ms": 69.62985,
+      "timing_iqr_ms": 13.62767500000001,
+      "timing_scope": "Subprocess end-to-end timing including process startup and file I/O"
+    }
+  },
+  "environment": {
+    "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0"
+  },
+  "scope": "Controlled sign/verify template variants; Java/Go execute through a Python subprocess adapter; build status recorded per task"
+}

@@ -1,0 +1,66 @@
+{
+  "inventory": {
+    "language": "java",
+    "sites": [
+      {
+        "line": 6,
+        "primitive": "RSA",
+        "operation": "keygen",
+        "evidence": "KeyPairGenerator.getInstance(\"RSA\"",
+        "confidence": "import-supported syntax"
+      },
+      {
+        "line": 7,
+        "primitive": "RSA",
+        "operation": "signature",
+        "evidence": "Signature.getInstance(\"SHA256withRSA\"",
+        "confidence": "import-supported syntax"
+      }
+    ],
+    "boundaries": [],
+    "cug": {
+      "nodes": [
+        {
+          "id": "s0",
+          "kind": "operation",
+          "line": 6,
+          "primitive": "RSA",
+          "operation": "keygen",
+          "evidence": "KeyPairGenerator.getInstance(\"RSA\"",
+          "confidence": "import-supported syntax"
+        },
+        {
+          "id": "s1",
+          "kind": "operation",
+          "line": 7,
+          "primitive": "RSA",
+          "operation": "signature",
+          "evidence": "Signature.getInstance(\"SHA256withRSA\"",
+          "confidence": "import-supported syntax"
+        }
+      ],
+      "edges": []
+    },
+    "analysis_scope": "Python AST import resolution; Java/Go import-supported syntax; file-context CUG indicators"
+  },
+  "strategy": "direct",
+  "auto_applicable": true,
+  "reasons": [],
+  "target": "ML-DSA-65",
+  "candidate_strategies": [
+    "direct",
+    "hybrid-profile-required",
+    "compatibility-preserving-policy-required",
+    "abstain"
+  ],
+  "validation_obligations": [
+    "build",
+    "sign_verify",
+    "wrong_message",
+    "wrong_key",
+    "corrupt_signature",
+    "key_serialization_roundtrip"
+  ],
+  "supported_scope": "Supported transformations: complete sign/verify fixture templates; other units return abstain",
+  "patch_scope": "Whole sign/verify fixture unit; Java/Go use a Python subprocess provider adapter"
+}
