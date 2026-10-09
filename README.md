@@ -1,7 +1,5 @@
 # Q_Migrate
 
-Paper: **Q-Migrate: Impact-Aware Program Transformation for Post-Quantum Cryptography Migration**
-
 Cryptographic-use extraction for Python, Java and Go, context graphs, migration planning and guarded template transformations. Supported sign/verify units execute through an OpenSSL ML-DSA-65 adapter.
 
 ## Files
@@ -46,12 +44,12 @@ A template mismatch, unresolved external-verifier compatibility or unavailable M
 
 ## Implementation scope and data
 
-Automatic transformations cover the packaged complete sign/verify templates and their message/key-size variants. Java and Go use a Python subprocess adapter. Full cross-file CUG analysis, automatic KEM flow transformation, hybrid-protocol synthesis, PKI/TLS migration, staged compatibility implementations and the paper's GitHub sample are not included.
+Automatic transformations cover the packaged complete sign/verify templates and their message/key-size variants. Java and Go use a Python subprocess adapter. Full cross-file CUG analysis, automatic KEM flow transformation, hybrid-protocol synthesis, PKI/TLS migration and staged compatibility implementations are not included. Detection examples use the packaged templates.
 
-The implementation basis is the paper PDF. Examples and controlled benchmarks are produced by the included generators. PDF page counts, SHA-256 values and experimental-provenance flags are recorded in `provenance.json`.
+Examples and controlled benchmarks are produced by the included generators.
 
 ## Outputs and validation records
 
 results/summary.json, results/tasks and results/toolchains.json.
 
-`results/test_log.txt` contains the test log. `results/verification.json` records the test count, exit status and Python version. `results/source_format.json` records code-comment and docstring counts. `CHECKSUMS.sha256` lists file hashes.
+`results/test_log.txt` contains the test log. `results/verification.json` records the test count, exit status and Python version. `CHECKSUMS.sha256` lists file hashes.
